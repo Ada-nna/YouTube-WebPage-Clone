@@ -1,0 +1,337 @@
+.rightSideSection{
+    max-width: 87.5rem;
+    max-width: 125rem;
+    margin-top: 0.313rem;
+    margin-left: 1rem;
+}
+
+.recommendation{
+    display: flex;
+    gap: 0.625rem;
+    margin: 1rem;
+}
+
+.recommendation p{
+    border: none;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    cursor: pointer;
+    background-color: rgb(39,39,39);
+}
+
+.recommendation p:hover{
+    background-color: rgb(90, 89, 89);
+}
+
+.upCards{
+    display: flex;
+    gap: 15px;
+    margin: 3rem 0.625rem 0 0.625rem;
+}
+
+.one{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image9.jpg) center center/cover no-repeat;
+}
+
+.text1{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text1 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description1 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+.description1 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.two{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image2.jpg) center center/cover no-repeat;
+}
+
+.text2{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text2 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description2 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description2 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.three{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image3.jpg) center center/cover no-repeat;
+}
+
+.text3{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text3 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description3 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description3 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.four{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image4.jpg) center center/cover no-repeat;
+}
+
+.text4{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text4 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description4 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description4 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.five{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image5.jpg) center center/cover no-repeat;
+}
+
+.text5{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text5 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description5 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description5 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+/* downCards styling section */
+
+.downCards{
+    display: flex;
+    gap: 15px;
+    margin: 3rem 0.625rem 0 0.625rem;
+}
+
+.six{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/webDeveloper.jpg) center center/cover no-repeat;
+}
+
+.text6{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text6 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description6 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description6 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.seven{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/J&S.jpg) center center/cover no-repeat;
+}
+
+.text7{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text7 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description7 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description7 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.eight{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image88.jpg) center center/cover no-repeat;
+}
+
+.text8{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text8 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description8 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description8 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.nine{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image99.jpg) center center/cover no-repeat;
+}
+
+.text9{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text9 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description9 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description9 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.ten{
+    height: 12.414rem;
+    width: 19.7rem;
+    border-radius: 0.625rem;
+    background: url(./images/image1.jpg) center center/cover no-repeat;
+}
+
+.text10{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+}
+.text10 img{
+    height: 2.188rem;
+    width: 2.188rem;
+    border-radius: 50%;
+}
+.description10 h3{
+    font-size: 1rem;
+    width: 16.25rem;
+    line-height: 1.375rem;
+}
+
+.description10 p{
+    color: rgb(170, 170, 170);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}

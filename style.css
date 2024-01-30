@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(15,15,15);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.firstNav{
+    margin: 0.625rem 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    position: relative;
+}
+
+.bars{
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
+.youtubeLogo{
+    padding-top: 5px;
+}
+
+.logoImg{
+    width: 7.438rem;
+    height: 1.563rem;
+}
+
+.ng{
+    font-size: 0.625rem;
+    font-weight: 400;
+    color: rgb(167, 165, 165);
+    position: absolute;
+    top: 0;
+    left: 165px;
+}
+
+.searchBar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#magnifying-glass{
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+#searchPlace{
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.625rem 40px 0.625rem 50px;
+    border-radius: 1.25rem 0 0 1.25rem;
+    outline: 0;
+    border: 1px solid rgb(34,34,34);
+    z-index: 1;
+}
+
+#searchPlace:hover{
+    transform: scaleX(1.02);
+    border: 1px solid rgba(25, 25, 249, 0.608);
+}
+
+#searchIconn{
+    border: 1px solid;
+    width: 3.938rem;
+    height: 2.563rem;
+    border: none;
+    border-radius: 0 1.25rem 1.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: rgb(34,34,34);
+}
+
+.fa-microphone{
+    border: none;
+    margin-left: 0.938rem;
+    padding: 0.75rem 0.875rem;
+    border-radius: 50%;
+    background-color: rgb(34,34,34);
+    cursor: pointer;
+}
+
+.navIcons{
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+#videoCall{
+    font-size: 1.563rem;
+    cursor: pointer;
+}
+
+#videoCall:hover{
+    background-color: rgb(34,34,34);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-bell{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.fa-bell:hover{
+    background-color: rgb(34,34,34);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg{
+    height: 1.875rem;
+    width: 1.875rem;
+    background: url(./images/profile.jpg) center center/cover no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
